@@ -1,0 +1,58 @@
+Run: ./configure
+Then run: make
+cd src
+
+There will be two executables built optionmatrix and 
+optionmatrix_console. optionmatrix is the GTK+ executable
+(graphical version) optionmatrix_console is the curses
+executable (text version)
+Run either one by typing ./optionmatrix or
+./optionmatrix_console
+
+To install under Linux / Unix run: sudo make install
+
+The curses, ncurses or pdcurses library is needed to compile
+optionmatrix_console. The gtk-3 or gtk-x11-2.0 library is need to
+compile optionmatrix
+
+The configure script also checks for the installation of the
+GSL, Newmat and IT++ libraries. These libraries are not
+needed but inclusion will cause the application will have
+a few more models.
+
+To make the PDF documentation texi2dvi needs to be installed then:
+make pdf
+
+To make the HTML documentation texi2html needs to be installed then:
+make html
+
+To publish the HTML, optionmatrix.tar.gz, optionmatrix.zip and 
+optionmatrix.pdf to a website:
+make website
+
+-----------------------------------------------------------------------
+
+optionmatrix: 
+
+Options & Futures Matrix Modeler
+
+Copyright (C) Anthony Bradford. 2012.
+http://opensourcefinancialmodels.com
+info@opensourcefinancialmodels.com
+
+optionmatrix may be freely redistributed.       
+See file COPYING included with this distribution for license information
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+

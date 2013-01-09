@@ -1,0 +1,10 @@
+* Merge with GTK+ stochastic graphing engine -> GAME
+  Graphing gold, blue, silver, yellow and interest rate.
+  Add play, pause button for date advancing into future. Expirations will
+  approach as date advances 1 day every 2 seconds. Give user ability
+  to left click buy/sell spots, buy/sell puts, buy/sell calls, 
+  buy/sell futures on stochastics. Have spreads between stochastics.
+  One stochastic process is interest rate. Right click properties on stochastic
+  adjust standard deviation, make mean bearing, random walking, maybe have
+  computer algebraic interpreter (e.g. sin wave). Have fake brokerage account
+  update with positions and values.

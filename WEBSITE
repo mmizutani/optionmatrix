@@ -1,0 +1,21 @@
+./configure; make website
+
+Will push the HTML out to a website of your choice. You will be prompted
+for website, login and password. The script utils/push_to_web.sh assumes
+the website is in public_html/, the script will make a directory om and install
+index.html and associated HTML files.
+
+You must make a link from your main website to the om directory. 
+Example: http://YourWebsite.com/om
+
+Feel free to publish the OptionMatrix .pdf, .tar.gz and .zip files.
+
+Please note if you publish these files, the HTML has hard links to
+http://opensourcefinancialmodels.com
+These hard links can be changed in doc/optionmatrix.texi
+to reference your website and hit your .pdf,.tar.gz and .zip files.
+
+See these hard links:
+grep "http://opensourcefinancial" doc/optionmatrix.texi | egrep '.pdf|.zip|.gz'
+
+Copyright (C) 2012 Anthony Bradford.

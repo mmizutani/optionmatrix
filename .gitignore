@@ -1,0 +1,15 @@
+*.gz
+*.o
+config.h
+config.log
+config.status
+Makefile
+stamp-h1
+doc/html/Makefile
+doc/Makefile
+man/Makefile
+src/financialrecipes/examples/Makefile
+src/financialrecipes/src/Makefile
+src/Makefile
+src/metaoptions/src/Makefile
+src/metaoptions/tests/Makefile
